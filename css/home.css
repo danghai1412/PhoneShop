@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    color: black;
+    width: 100%;
+}
+
+.header a {
+    color: black;
+    margin: 15px 5px;
+}
+
+.header ul {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    color: black;
+    font-size: 18px;
+    background-color: #00aeff;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.logo {
+    margin: auto 5px;
+    padding: auto 5px;
+}
+
+.nav li:first-of-type {
+    margin-left: 3%;
+}
+
+
+.nav li:hover {
+    background-color: #07fff3;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar ul {
+    width: 100%;
+}
+
+nav a:hover {
+    background-color: #07eeff;
+    color: black;
+}
+
+.product img{
+    max-width: auto;
+    height: 450px;
+}
+
+.product {
+    margin: 80px 100px 15px 150px;
+    display: flex;
+    justify-content: left;
+    background-color: #b5ffd0;
+}
+
+.content{
+    margin: 0px 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.item {
+    background-color: rgb(196, 238, 255);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.item img {
+    max-width: auto;
+    max-height: 150px;
+}
+
+input,
+button {
+    height: 30px;
+}
+
+.nav-item img {
+    width: auto;
+    height: 60px;
+}
+
+.dropbtn {
+    font-size: 18px;
+    color: black;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    height: 73px;
+    background: none;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(196, 237, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.dropdown-content a:hover {
+    background-color: #07ffe2;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border: none;
+}
+
+.dropdown:hover .dropbtn {
+
+    background-color: #07eeff;
+}
+
+.nav form {
+    float: right;
+    margin-left: 30%;
+}
+
+.form-inline>button {
+    text-transform: uppercase;
+    line-height: 5px;
+    font-size: 18px;
+    height: 35px;
+    max-width: auto;
+}
+
+.btn-outline-warning {
+    color: black;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(196, 241, 255);
+    margin: 15rem 0 0;
+    font-size: 20px;
+}
+
+.footer img{
+    max-width: auto;
+    height: 80px;
+    text-align: center;
+}
+
+.footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer li{
+    display: inline-block;
+}
+
+.inf{
+    margin: 5px 0 30px;
+}
+
+.inf li{
+    margin: 0 10px;
+}
+
+.icon{-
+    margin: 0 20px 0 20px;
+}
+
+.icon li{
+    margin: 10px 10px;
+}
+
+.ad img{
+    width: auto;
+    height: 250px;
+    border: 1px solid rgb(196, 248, 255);
+    margin: 20px 0;
+}
